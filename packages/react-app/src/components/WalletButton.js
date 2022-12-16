@@ -27,7 +27,7 @@ const WalletButton = () => {
                     deactivate();
                 }
             }}
-            className={styles.walletButton}     
+            className={styles.walletButton}
         >
             {!accountAddress  ? "Connect Wallet" : accountAddress}
         </button>

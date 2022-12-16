@@ -33,7 +33,7 @@ const styles = {
 
   // WalletButton
   walletButton:
-    "bg-site-pink border-none outline-none px-6 py-2 font-poppins font-bold text-lg text-white rounded-3xl leading-[24px] hover:bg-pink-600 transition-all",
+    "bg-site-red border-none outline-none px-6 py-2 font-poppins font-bold text-lg text-white rounded-3xl leading-[24px] hover:bg-red-600 transition-all",
 
   // loader
   loader: "flex justify-center items-center flex-col w-full min-h-full",

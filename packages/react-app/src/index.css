@@ -24,7 +24,7 @@ input[type="number"] {
   );
 }
 
-.pink_gradient {
+.red_gradient {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -32,11 +32,11 @@ input[type="number"] {
   height: 123px;
   border-radius: 50%;
 
-  background: #fb37ff;
+  background: #f70101;
   filter: blur(200px);
 }
 
-.blue_gradient {
+.yellow_gradient {
   position: absolute;
   bottom: 0%;
   right: 0%;
@@ -44,16 +44,26 @@ input[type="number"] {
   height: 123px;
   border-radius: 50%;
 
-  background: #18b2de;
+  background: #ffee00;
   filter: blur(200px);
 }
 
 .gradient-border {
   background: linear-gradient(
     168.82deg,
-    #fb37ff 1.7%,
+    #f50800 1.7%,
     rgba(155, 111, 238, 0) 27.12%,
     rgba(123, 127, 234, 0) 61.28%,
-    #1bb2de 99.52%
+    #f5a700 99.52%
   );
+}
+
+.phoenix_logo{
+  width: 123px;
+  height: 123px;
+}
+
+.bg-site-red {
+  --tw-bg-opacity: 1;
+  background-color: red;
 }
